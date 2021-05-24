@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name m2-dual-sata)(type Legacy)(uri ${KIPRJMOD}/m2-dual-sata.lib)(options "")(descr ""))
+)

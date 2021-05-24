@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name m2-dual-sata)(type KiCad)(uri ${KIPRJMOD}/m2-dual-sata.pretty)(options "")(descr ""))
+)

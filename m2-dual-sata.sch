@@ -1,0 +1,290 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 6079AF3D
+P 4800 5600
+F 0 "#PWR0101" H 4800 5350 50  0001 C CNN
+F 1 "GND" H 4805 5427 50  0000 C CNN
+F 2 "" H 4800 5600 50  0001 C CNN
+F 3 "" H 4800 5600 50  0001 C CNN
+	1    4800 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5400 4800 5400
+Wire Wire Line
+	4800 5400 4800 5600
+Wire Wire Line
+	5000 5300 4800 5300
+Wire Wire Line
+	4800 5300 4800 5400
+Connection ~ 4800 5400
+Wire Wire Line
+	5000 5200 4800 5200
+Wire Wire Line
+	4800 5200 4800 5300
+Connection ~ 4800 5300
+Wire Wire Line
+	5000 5100 4800 5100
+Wire Wire Line
+	4800 5100 4800 5200
+Connection ~ 4800 5200
+Wire Wire Line
+	5000 4500 4800 4500
+Wire Wire Line
+	4800 4500 4800 5100
+Connection ~ 4800 5100
+Wire Wire Line
+	5000 4200 4800 4200
+Wire Wire Line
+	4800 4200 4800 4500
+Connection ~ 4800 4500
+Wire Wire Line
+	5000 3900 4800 3900
+Wire Wire Line
+	4800 3900 4800 4200
+Connection ~ 4800 4200
+Wire Wire Line
+	5000 3600 4800 3600
+Connection ~ 4800 3900
+Wire Wire Line
+	5000 3300 4800 3300
+Wire Wire Line
+	4800 3300 4800 3600
+Connection ~ 4800 3600
+Wire Wire Line
+	5000 3000 4800 3000
+Wire Wire Line
+	4800 3000 4800 3300
+Connection ~ 4800 3300
+Wire Wire Line
+	5000 2400 4800 2400
+Wire Wire Line
+	4800 2400 4800 2700
+Connection ~ 4800 3000
+Wire Wire Line
+	5000 2100 4800 2100
+Wire Wire Line
+	4800 2100 4800 2400
+Connection ~ 4800 2400
+Wire Wire Line
+	5000 1800 4800 1800
+Wire Wire Line
+	4800 1800 4800 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	5000 1700 4800 1700
+Wire Wire Line
+	4800 1700 4800 1800
+Connection ~ 4800 1800
+NoConn ~ 5000 1900
+NoConn ~ 5000 2000
+NoConn ~ 5000 2200
+NoConn ~ 5000 2300
+NoConn ~ 5000 2500
+NoConn ~ 5000 2600
+NoConn ~ 5000 2800
+NoConn ~ 5000 2900
+NoConn ~ 5500 1900
+NoConn ~ 5500 2000
+NoConn ~ 5500 2600
+NoConn ~ 5500 2700
+NoConn ~ 5500 2800
+NoConn ~ 5500 2900
+NoConn ~ 5500 3000
+NoConn ~ 5500 3100
+NoConn ~ 5500 3200
+NoConn ~ 5500 3300
+NoConn ~ 5500 3400
+NoConn ~ 5500 3600
+NoConn ~ 5500 3700
+NoConn ~ 5500 3800
+NoConn ~ 5000 5000
+NoConn ~ 5500 3900
+NoConn ~ 5500 4000
+NoConn ~ 5500 4200
+NoConn ~ 5500 4300
+NoConn ~ 5500 4400
+NoConn ~ 5500 4500
+NoConn ~ 5500 5000
+NoConn ~ 5500 5100
+NoConn ~ 5500 5200
+NoConn ~ 5500 5300
+NoConn ~ 5500 1700
+NoConn ~ 5500 1800
+NoConn ~ 5500 2200
+NoConn ~ 5500 2300
+NoConn ~ 5500 2400
+NoConn ~ 5500 2500
+Wire Wire Line
+	4350 4100 5000 4100
+Wire Wire Line
+	4350 4200 4350 4100
+Wire Wire Line
+	3800 4200 4350 4200
+Connection ~ 4000 3700
+Connection ~ 4000 3500
+Wire Wire Line
+	4000 3500 4000 3700
+Wire Wire Line
+	4000 3700 4000 4000
+Connection ~ 4000 4000
+$Comp
+L power:GND #PWR0102
+U 1 1 607D8528
+P 4000 4500
+F 0 "#PWR0102" H 4000 4250 50  0001 C CNN
+F 1 "GND" H 4005 4327 50  0000 C CNN
+F 2 "" H 4000 4500 50  0001 C CNN
+F 3 "" H 4000 4500 50  0001 C CNN
+	1    4000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4000 4000 4300
+Wire Wire Line
+	3800 4000 4000 4000
+Connection ~ 4000 4300
+Wire Wire Line
+	4000 4300 4000 4500
+Wire Wire Line
+	4000 4300 3800 4300
+Wire Wire Line
+	3800 3700 4000 3700
+Connection ~ 4000 3200
+Wire Wire Line
+	4000 2900 4000 3200
+Wire Wire Line
+	3800 2900 4000 2900
+Wire Wire Line
+	4000 3200 4000 3500
+Wire Wire Line
+	3800 3200 4000 3200
+Wire Wire Line
+	4000 3500 3800 3500
+Wire Wire Line
+	4250 4100 4250 4000
+Wire Wire Line
+	4250 4000 5000 4000
+Wire Wire Line
+	3800 4100 4250 4100
+Wire Wire Line
+	4350 3900 4350 3800
+Wire Wire Line
+	3800 3900 4350 3900
+Wire Wire Line
+	4250 3800 4250 3700
+Wire Wire Line
+	3800 3800 4250 3800
+Wire Wire Line
+	4250 3500 4250 3400
+Wire Wire Line
+	4250 3500 5000 3500
+Wire Wire Line
+	3800 3400 4250 3400
+Wire Wire Line
+	4350 3400 4350 3300
+Wire Wire Line
+	4350 3400 5000 3400
+Wire Wire Line
+	3800 3300 4350 3300
+Wire Wire Line
+	3800 3100 5000 3100
+Wire Wire Line
+	4300 3200 4300 3000
+Wire Wire Line
+	4300 3200 5000 3200
+Wire Wire Line
+	3800 3000 4300 3000
+Wire Wire Line
+	4250 3700 5000 3700
+Wire Wire Line
+	4800 3600 4800 3900
+Text Label 4750 3700 2    50   ~ 0
+SATA1_B+
+Text Label 4750 3800 2    50   ~ 0
+SATA1_B-
+Text Label 4750 4000 2    50   ~ 0
+SATA1_A-
+Text Label 4750 4100 2    50   ~ 0
+SATA1_A+
+Text Label 4750 3500 2    50   ~ 0
+SATA2_A+
+Wire Wire Line
+	4350 3800 5000 3800
+Text Label 4750 3400 2    50   ~ 0
+SATA2_A-
+Text Label 4750 3200 2    50   ~ 0
+SATA2_B+
+Text Label 4750 3100 2    50   ~ 0
+SATA2_B-
+Wire Wire Line
+	5000 2700 4800 2700
+Connection ~ 4800 2700
+Wire Wire Line
+	4800 2700 4800 3000
+NoConn ~ 5500 2100
+NoConn ~ 5500 3500
+NoConn ~ 5500 4100
+NoConn ~ 5000 4300
+NoConn ~ 5000 4400
+$Comp
+L m2-dual-sata:M2_M_Key EDGE1
+U 1 1 6079849A
+P 5200 3500
+F 0 "EDGE1" H 5250 5517 50  0000 C CNN
+F 1 "M.2 Key M" H 5250 5426 50  0000 C CNN
+F 2 "m2-dual-sata:NGFF_M" H 5200 3500 50  0001 C CNN
+F 3 "~" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 SATA1
+U 1 1 607C02C1
+P 3600 4000
+F 0 "SATA1" H 3518 4517 50  0000 C CNN
+F 1 "SATA1" H 3518 4426 50  0001 C CNN
+F 2 "m2-dual-sata:SATA-7_THT_VERT_1" H 3600 4000 50  0001 C CNN
+F 3 "~" H 3600 4000 50  0001 C CNN
+	1    3600 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 SATA2
+U 1 1 607BE2A0
+P 3600 3200
+F 0 "SATA2" H 3518 2675 50  0000 C CNN
+F 1 "SATA" H 3518 2766 50  0001 C CNN
+F 2 "m2-dual-sata:SATA-7_THT_VERT_1" H 3518 2767 50  0001 C CNN
+F 3 "~" H 3600 3200 50  0001 C CNN
+	1    3600 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 607D7C64
+P 3750 2000
+F 0 "H1" H 3850 2049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3850 1958 50  0000 L CNN
+F 2 "m2-dual-sata:m2-hole" H 3750 2000 50  0001 C CNN
+F 3 "~" H 3750 2000 50  0001 C CNN
+	1    3750 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 2100
+$EndSCHEMATC
